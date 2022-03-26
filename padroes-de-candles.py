@@ -1,0 +1,6 @@
+alta = C[0] > O[0]
+baixa = C[0] < O[0]
+cog_alta = C[0] < O[0] && C[1] > O[1]
+cog_baixa = C[0] > O[0] && C[1] < O[1]
+cogm_alta = C[0] < O[0] && C[1] > O[1] && L[0] == H[1]
+cogm_baixa = C[0] > O[0] && C[1] < O[1] && L[1] == H[0]
