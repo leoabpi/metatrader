@@ -1,0 +1,6 @@
+alta = (C0) > (O0)
+baixa = (C0) < (O0)
+cog_alta = (C0) < (O0) & (C1) > (O1)
+cog_baixa = (C0) > (O0) & (C1) < (O1)
+cogm_alta = (C0) < (O0) & (C1) > (O1) & (L0) == H1)
+cogm_baixa = (C0) > (O0) & (C1) < (O1) & (L1) == H0)
